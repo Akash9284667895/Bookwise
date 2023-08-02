@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;800&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,500;1,600;1,800&family=Roboto+Slab:wght@200;400;600;800;900&family=Splash&family=Yantramanav:wght@400;500;900&display=swap"
+    rel="stylesheet">
+    <title>Webdew Books</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+    <section class="navigation">
+      <div class="nav-container">
+        <div class="brand">
+          <img class="img3" src="https://img.freepik.com/premium-photo/opened-book-with-flying-pages-butterflies-dark-backgroundgenerative-ai_391052-12859.jpg"/>
+          <h3>BookWise</h3>
+        </div>
+        <nav>
+          <div class="nav-mobile"><a id="navbar-toggle" href="javascript:void(0);"><span></span></a></div>
+      <ul class="nav-list">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="service.html">Services</a>
+        </li>
+        <li>
+          <a href="contactus.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+    </section>
+  </header>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+  <div class="card-container">
+    <div class="card">
+        <img class="img2" src="./img/first.jpg" alt="Denim Jeans" style="width:100%" >
+        <h3>The Daughter's Tale</h3>
+        <p class="price">by Armando Lucas</p>
+        <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+        <button class="buttons" onclick="openModal('The Daughter\'s Tale', 'Author: Armando Lucas\n\nDescription: Some text about the book. Super interesting and engaging. Lorem ipsum lorem ipsum.', './img/first.jpg')">View Details</button>
+      </div>
+
+      <div class="card">
+        <img class="img2" src="./img/second.jpg" alt="Denim Jeans" style="width:100%">
+        <h3>Himself</h3>
+        <p class="price">by Jess Kidd</p>
+        <p>Jess Kidd is a spectacular writer with one foot in the mythical and the other planted firmly in reality.</p>
+        <button class="buttons" onclick="openModal('Himself', 'Author: Jess Kidd\n\nDescription: Jess Kidd is a spectacular writer with one foot in the mythical and the other planted firmly in reality.', './img/second.jpg')">View Details</button>
+      </div>
+      <div class="card">
+        <img class="img2" src="./img/third.jpg" alt="Denim Jeans" style="width:100%">
+        <h3>Gorgeous Lies</h3>
+        <p class="price">by Martha McPhee</p>
+        <p>bestselling author Martha McPhee’s poetic prose and incredibly aware domestic fiction always delivers.</p>
+        <button class="buttons" onclick="openModal('Gorgeous Lies', 'Author: Martha McPhee\n\nDescription: Bestselling author Martha McPhee’s poetic prose and incredibly aware domestic fiction always delivers.', './img/third.jpg')">View Details</button>
+      </div>
+      <div class="card">
+        <img class="img2" src="./img/fourth.jpg" alt="Denim Jeans" style="width:100%">
+        <h3>All the Missing Girls</h3>
+        <p class="price">by Megan Miranda</p>
+        <p>Megan Miranda writes thrillers that keep you wondering what will happen next—all the way up to the last-minute .</p>
+        <button class="buttons" onclick="openModal('All the Missing Girls', 'Author: Megan Miranda\n\nDescription: Megan Miranda writes thrillers that keep you wondering what will happen next—all the way up to the last-minute.', './img/fourth.jpg')">View Details</button>
+      </div>
+      <div class="card">
+        <img class="img2" src="./img/five.jpg" alt="Denim Jeans" style="width:100%">
+        <h3>Tailored Jeans</h3>
+        <p class="price">by Megan Miranda</p>
+        <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+        <button class="buttons" onclick="openModal('Book Five Title', 'Author: Author Five\n\nDescription: Description of Book Five.', './img/five.jpg')">View Details</button>
+      </div>
+      <div class="card">
+        <img class="img2" src="./img/six.jpg" alt="Denim Jeans" style="width:100%">
+        <h3>Tailored Jeans</h3>
+        <p class="price">$19.99</p>
+        <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+        <button class="buttons" onclick="openModal('Book Six Title', 'Author: Author Six\n\nDescription: Description of Book Six.', './img/six.jpg')">View Details</button>
+      </div>
+      <div class="card">
+        <img class="img2" src="./img/seven.jpg" alt="Denim Jeans" style="width:100%">
+        <h3>Tailored Jeans</h3>
+        <p class="price">$19.99</p>
+        <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+        <button class="buttons" onclick="openModal('Tailored Jeans', 'Price: $19.99\n\nDescription: Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.', './img/seven.jpg')">View Details</button>
+      </div>
+      <div class="card">
+        <img  class="img2" src="./img/ten.jpg" alt="Denim Jeans" style="width:100%">
+        <h3>Tailored Jeans</h3>
+        <p class="price">$19.99</p>
+        <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+        <button class="buttons" onclick="openModal('Tailored Jeans', 'Price: $19.99\n\nDescription: Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.', './img/ten.jpg')">View Details</button>
+      </div>
+      </div>
+      <br/>
+ <br/>
+      <footer class="bottomfoot">
+        <p>&copy; 2023 WebDew Books. All rights reserved.</p>
+      </footer>
+      <div class="modal" id="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <h3 class="h3box" id="modal-title"></h3>
+          <img class="img2" src="" id="modal-image" alt="Book Cover" style="width: 100%">
+          <p style="font-size: 15px;" id="modal-description"></p>
+          <a style="font-size: 12px;" id="modal-link" href="#" target="_blank">Purchase Book</a>
+        </div>
+        
+    </body>
+   
+    </html>
+    
+    <script src="./script.js"></script>
