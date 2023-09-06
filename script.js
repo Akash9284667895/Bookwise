@@ -1,4 +1,4 @@
-// script.js
+
 
   const navbarToggle = document.getElementById('navbar-toggle');
   const navList = document.querySelector('.nav-list');
